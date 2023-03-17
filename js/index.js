@@ -82,3 +82,162 @@
 // const a = 2;
 // console.log(a ** 10);
 
+// function checkStorage(available, ordered) {
+//   // Change code below this line
+//   if (ordered === 0) {
+//      return "Your order is empty!";
+//   } 
+//   if (ordered > available) {
+//      return  "Your order is too large, not enough goods in stock!";
+//   } //else {
+//    // return message = "The order is accepted, our manager will contact you";
+//  // }
+// return "The order is accepted, our manager will contact you";
+//   // Change code above this line
+// }
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+
+// // Change code below this line
+// const firstElenent = fruits[0];
+// const secondElement = fruits[1];
+// const lastElement = fruits[fruits.length-1];
+
+// console.log(firstElenent);
+// console.log(secondElement);
+// console.log(lastElement);
+
+// const fruits = ["apple", "plum", "pear", "orange"];
+// fruits[1] = 'peach';
+// fruits[3] = 'banana';
+// // Write your code under this line
+
+// function getExtremeElements(array) {
+//     // Change code below this line
+//     let firstArrayElement = array[0];
+//     let lastArrayElement = array[array.length - 1];
+//     let newArray = [firstArrayElement, lastArrayElement]; 
+//     
+//     return newArray;
+  
+//     // Change code above this line
+//   }
+  
+// function splitMessage(message, delimeter) {
+//     let words = message.split( delimeter);
+//     // Change code below this line
+//     return words;
+//     // Change code above this line
+     
+//   }
+
+// function calculateEngravingPrice(message, pricePerWord) {
+//     // Change code below this line
+//  const arrayMessage = message.split(' ');
+//  const totalPrice = arrayMessage.length * pricePerWord;;
+//  return totalPrice; 
+
+//   // Change code above this line
+// } 
+
+
+// function makeStringFromArray(array, delimeter) {
+//     let string;
+//     // Change code below this line
+//     string = array.join(delimeter);
+  
+  
+//     // Change code above this line
+//     return string;
+//   }
+
+// function slugify(title) {
+//     // Change code below this line
+//     const titleLowerCase = title.toLowerCase();
+//     const slug = titleLowerCase.split(" ");
+//    return slug.join('-');
+  
+  
+//     // Change code above this line
+//   }
+
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0, 2);
+// const nonExtremeEls = fruits.slice(1, -1);
+// const lastThreeEls = fruits.slice(-3);
+
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients); // Change this line
+
+
+// function makeArray(firstArray, secondArray, maxLength) {
+//     const allArray = firstArray.concat(secondArray);
+//     if (allArray.length > maxLength) {
+//       return allArray.slice(0, maxLength);
+//  }    else {
+//       return allArray;
+//   }
+
+
+//    // Change code above this line
+//  }
+
+
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i +=1 ) {
+  
+//     console.log(i);    
+//     //break;
+ 
+// }
+
+
+// function calculateTotal(number) {
+//     // Change code below this line
+//      let total = 0;
+//     for (let i=0, sum=0; i <= number; i +=1 ) {
+//       total += i;
+//     } 
+//      return total;    
+//       }
+
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i += 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+// function calculateTotalPrice(order) {
+//     let total = 0;
+//     for (i = 0; i < order.length; i ++) {
+//         //const order = array[i];
+//         total += order[i];     
+//          }
+//          return total;
+//     }
+//   // return total;
+//     // Change code above this line
+   
+function findLongestWord(string) {
+    // Change code below this line
+    let arrString = string.split(' ');
+    let wordLength = 0;
+    let longestWord;
+    for (let i = 0; i < arrString .length; i += 1) {
+          wordLength = arrString [1].length;
+  
+      if (arrString [i].length > wordLength) {
+           longestWord = arrString [i];
+          return longestWord;
+        }
+     }
+  
+    // Change code above this line
+  }
