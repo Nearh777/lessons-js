@@ -72,3 +72,13 @@
   
 //    // Change code above this line
 //}
+// let a = 2 * (8 / 4);
+// alert(a);
+// let a = 13;
+// let b = 5;
+// const c = 13 % 5;
+// console.log(c);
+
+// const a = 2;
+// console.log(a ** 10);
+
