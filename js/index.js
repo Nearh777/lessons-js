@@ -345,3 +345,83 @@
 //        }   
 //   }
 // return array3;
+
+// function calculateTotalPrice(order) {
+//   // Change code below this line
+//  let total = 0;
+//  for (const score of order) {
+//        total += score;    
+//  }
+
+//  return total;
+// }
+
+
+
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = [];
+//   for (const number of numbers) {
+//        if (number > value) {
+//       filteredNumbers.push(number);
+//   }
+
+//  // for (let i = 0; i < numbers.length; i += 1) {
+//    // const number = numbers[i];
+
+    
+//    // }
+//   }
+
+//   return filteredNumbers;
+//   // Change code above this line
+// }
+
+
+// Change code below this line
+// const a = 3 % 1;
+// const b = 4 % 3;
+// const c = 11 % 4;
+// const d = 12 % 7;
+// const e = 8 % 6;
+
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+// }
+
+
+// function findNumber(start, end, divisor) {
+//   // Change code below this line
+//   let number;
+
+//   for (let i = start; i <= end; i += 1) {
+//     if (i % divisor === 0) {
+//      return i;
+//      // break;
+//     }
+//   }
+
+//   return number;
+//   // Change code above this line
+// }
+
+
+// function includes(array, value) {
+//   // Change code below this line
+//   let message = false;
+//     for (let i of array) {
+//       if (i === value) {
+//         message = true;
+//         break;
+//       }
+//     }
+
+//   return message;
+// }
