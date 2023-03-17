@@ -221,7 +221,7 @@
 //   // Change code below this line
 //   let arrString = string.split(' ');
 //   let wordLength = 0;
-//   let longestWord;
+//   let longestWord = 0;
 //   for (let i = 0; i < arrString.length; i += 1) {
 //     wordLength = arrString[1].length;
 
@@ -239,3 +239,109 @@
 //     'Напишите программу, которая выводит через все числа от 1 до 100, с двумя исключениями. '
 //   )
 // );
+
+// function createArrayOfNumbers(min, max) {
+//     const numbers = [];
+//     // Change code below this line
+//    for (let i = min; i <= max; i++) {
+//         numbers.push(i);
+//    }
+//     // Change code above this line
+//     return numbers;
+//   }
+
+//   function filterArray(numbers, value) {
+//     const number = [];
+    
+//     for(let i = 0; numbers.length > i; i++){
+       
+//         if (numbers[i]>value){
+//             number.push(numbers[i])
+//         }
+//         }
+//       return number;
+//     }
+
+
+
+
+// function filterArray(numbers, value) {
+// //    Change code below this line
+//   const number = [];
+// for (let i = numbers; numbers > value; i++) {
+      
+  
+//   if (numbers % i == 0) {
+//        return false;
+//       }
+//   }
+//     return numbers > value;
+
+
+// //   Change code above this line
+// }
+
+// function filterArray(numbers, value) {
+//   const number = [];
+  
+//   for(let i = numbers[0]; i <= numbers.length; i++){
+     
+//       if (numbers[i] > value) {
+//           number.push(numbers[i])
+//       }
+//       }
+//     return number;
+//   }
+
+//   console.log(filterArray([12, 24, 8, 41, 76], 20));
+
+
+
+/*Напиши функцію filterArray(numbers, value), 
+яка приймає масив чисел (параметр numbers) і повертає новий масив, 
+в якому будуть тільки ті елементи масиву numbers, 
+які більші за значення параметра value (число).*/
+
+  // function filterArray(numbers, value) {
+  //   const filteredArray = numbers.filter((number) => number > value);
+  //   return filteredArray;
+  // }
+
+  // function filterArray(numbers, value) {
+  //   const filteredArray = [];
+  //   for (let i = 0; i < numbers.length; i++) {
+  //     if (numbers[i] > value) {
+  //       filteredArray.push(numbers[i]);
+  //     }
+  //   }
+  //   return filteredArray;
+  // }
+
+  // function checkFruit(fruit) {
+  //   const fruits = ["apple", "plum", "pear", "orange"];
+  //    return  fruits.includes(fruit);
+  // }   
+
+
+
+
+
+    // Change code below this line
+// let newArray = [];
+// for (let i = 0; i < array1.length; i ++) {
+//         // Change this line
+//         if (array2.includes(array1[i])) {
+//                 newArray.push(array1[i]);
+//         }
+// }
+// return newArray;
+// }  
+
+
+//let array3 = [];
+//   for (let newArray of array1) {
+//     if (array2.includis(newArray)) {
+//         array3.push(newArray);
+//        }   
+//   }
+// return array3;
