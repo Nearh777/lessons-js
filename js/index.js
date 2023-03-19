@@ -252,9 +252,9 @@
 
 //   function filterArray(numbers, value) {
 //     const number = [];
-    
+
 //     for(let i = 0; numbers.length > i; i++){
-       
+
 //         if (numbers[i]>value){
 //             number.push(numbers[i])
 //         }
@@ -262,30 +262,25 @@
 //       return number;
 //     }
 
-
-
-
 // function filterArray(numbers, value) {
 // //    Change code below this line
 //   const number = [];
 // for (let i = numbers; numbers > value; i++) {
-      
-  
+
 //   if (numbers % i == 0) {
 //        return false;
 //       }
 //   }
 //     return numbers > value;
 
-
 // //   Change code above this line
 // }
 
 // function filterArray(numbers, value) {
 //   const number = [];
-  
+
 //   for(let i = numbers[0]; i <= numbers.length; i++){
-     
+
 //       if (numbers[i] > value) {
 //           number.push(numbers[i])
 //       }
@@ -295,38 +290,32 @@
 
 //   console.log(filterArray([12, 24, 8, 41, 76], 20));
 
-
-
 /*Напиши функцію filterArray(numbers, value), 
 яка приймає масив чисел (параметр numbers) і повертає новий масив, 
 в якому будуть тільки ті елементи масиву numbers, 
 які більші за значення параметра value (число).*/
 
-  // function filterArray(numbers, value) {
-  //   const filteredArray = numbers.filter((number) => number > value);
-  //   return filteredArray;
-  // }
+// function filterArray(numbers, value) {
+//   const filteredArray = numbers.filter((number) => number > value);
+//   return filteredArray;
+// }
 
-  // function filterArray(numbers, value) {
-  //   const filteredArray = [];
-  //   for (let i = 0; i < numbers.length; i++) {
-  //     if (numbers[i] > value) {
-  //       filteredArray.push(numbers[i]);
-  //     }
-  //   }
-  //   return filteredArray;
-  // }
+// function filterArray(numbers, value) {
+//   const filteredArray = [];
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > value) {
+//       filteredArray.push(numbers[i]);
+//     }
+//   }
+//   return filteredArray;
+// }
 
-  // function checkFruit(fruit) {
-  //   const fruits = ["apple", "plum", "pear", "orange"];
-  //    return  fruits.includes(fruit);
-  // }   
+// function checkFruit(fruit) {
+//   const fruits = ["apple", "plum", "pear", "orange"];
+//    return  fruits.includes(fruit);
+// }
 
-
-
-
-
-    // Change code below this line
+// Change code below this line
 // let newArray = [];
 // for (let i = 0; i < array1.length; i ++) {
 //         // Change this line
@@ -335,14 +324,13 @@
 //         }
 // }
 // return newArray;
-// }  
-
+// }
 
 //let array3 = [];
 //   for (let newArray of array1) {
 //     if (array2.includis(newArray)) {
 //         array3.push(newArray);
-//        }   
+//        }
 //   }
 // return array3;
 
@@ -350,13 +338,11 @@
 //   // Change code below this line
 //  let total = 0;
 //  for (const score of order) {
-//        total += score;    
+//        total += score;
 //  }
 
 //  return total;
 // }
-
-
 
 // function filterArray(numbers, value) {
 //   // Change code below this line
@@ -369,14 +355,12 @@
 //  // for (let i = 0; i < numbers.length; i += 1) {
 //    // const number = numbers[i];
 
-    
 //    // }
 //   }
 
 //   return filteredNumbers;
 //   // Change code above this line
 // }
-
 
 // Change code below this line
 // const a = 3 % 1;
@@ -396,7 +380,6 @@
 //   }
 // }
 
-
 // function findNumber(start, end, divisor) {
 //   // Change code below this line
 //   let number;
@@ -412,7 +395,6 @@
 //   // Change code above this line
 // }
 
-
 // function includes(array, value) {
 //   // Change code below this line
 //   let message = false;
@@ -426,11 +408,9 @@
 //   return message;
 // }
 
-
-
 // Об'єкти
 
-// 
+//
 // const products = [
 //   { name: "Radar", price: 1300, quantity: 4 },
 //   { name: "Scanner", price: 2700, quantity: 3 },
@@ -463,8 +443,8 @@
 //   let result = 0;
 //  for (const product of products) {
 //     if (product.name === productName)  {
-//     return  result = product.price * product.quantity; 
-//        }         
+//     return  result = product.price * product.quantity;
+//        }
 //   }
 //   return 0;
 
@@ -517,7 +497,6 @@
 //   rgbColors.push(rgb);
 // }
 
-
 // const forecast = {
 //   today: {
 //     low: 28,
@@ -533,7 +512,7 @@
 
 // const { today: {
 //   low: lowToday,
-//        high: highToday,         
+//        high: highToday,
 //        icon: todayIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg",
 // },
 //        tomorrow: {high: highTomorrow, low: lowTomorrow, icon: tomorrowIcon = "https://www.flaticon.com/svg/static/icons/svg/2204/2204346.svg"},
@@ -545,10 +524,9 @@
 // const lowTomorrow = forecast.tomorrow.low;
 // const tomorrowIcon = forecast.tomorrow.icon;
 
-
 // Change code below this line
 // function calculateMeanTemperature(forecast) {
-//   const { today: {low: todayLow, 
+//   const { today: {low: todayLow,
 //                  high: todayHigh,},
 //          tomorrow: { low: tomorrowLow,
 //                     high: tomorrowHigh,}
@@ -601,7 +579,6 @@
 // // Change code below this line
 // const finalSettings = {...defaultSettings, ...overrideSettings};
 
-
 // function makeTask(data) {
 //   const completed = false;
 //   const category = "General";
@@ -610,7 +587,6 @@
 // return {category, priority, completed, ...data}
 //   // Change code above this line
 // }
-
 
 // Change code below this line
 // function add(...args) {
@@ -630,7 +606,7 @@
 //     if (arg > args[0]) {
 //       total += arg;
 //     }
-    
+
 //   }
 
 //   return total;
@@ -668,8 +644,14 @@
 //   // Change code above this line
 // };
 
-
-
+// const bookShelf = {
+//   books: ["The last kingdom", "Haze", "The guardian of dreams"],
+//   updateBook(oldName, newName) {
+//     const bookIdx = this.books.indexOf(oldName);
+// this.books.splice(bookIdx, 1, newName);
+//     return this.books;
+//   },
+// };
 
 // const bookShelf = {
 //   books: ["The last kingdom", "Haze", "The guardian of dreams"],
@@ -680,4 +662,93 @@
 //   },
 // };
 
+// const atTheOldToad = {
+//   // Change code below this line
+// potions: [],
+//   getPotions(potions) {
+//     return potions;
+//   },
 
+//   // Change code above this line
+// };
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   // Change code below this line
+// getPotions(potions) {
+//     return this.potions;
+//   },
+//   // Change code above this line
+// };
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   addPotion(potionName) {
+//     // Change code below this line
+
+//  this.potions.push(potionName);
+//     return this.potions;
+
+//     // Change code above this line
+//   },
+// };
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   removePotion(potionName) {
+//     // Change code below this line
+
+//  const bookIndex = this.potions.indexOf(potionName);
+//       this.potions.splice(bookIndex, 1);
+//     return;
+
+//     // Change code above this line
+//   },
+// };
+
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Dragon breath", price: 780 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+//   // Change code below this line
+//  getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(newPotion) {
+//     for (const potion of this.potions) {
+//       if (potion.name === newPotion.name)
+//       return `Error! Potion ${newPotion.name} is already in your inventory!`;
+//     }
+//     this.potions.push(newPotion);
+//   },
+//   removePotion(potionName) {
+//     for (let i = 0; i < this.potions.length; i +=1) {
+//       const potion = this.potions[i];
+//       if (potion.name === potionName) {
+//         this.potions.splice(i, 1);
+//       }
+//     }
+//       return `Potion ${potionName} is not in inventory!`;
+//     },
+//   updatePotionName(oldName, newName) {
+//     for (const potion of this.potions) {
+//       if (potion.name === oldName) {
+//         potion.name = newName;
+//         return;
+//       }
+//     }
+//         return `Potion ${oldName} is not in inventory!`;
+//      },
+//   // Change code above this line
+// };
+
+// Перебираючі об'єкти
+
+// // Change code below this line
+// const getTotalBalanceByGender = (users, gender) => {
+//   return users.filter((user) => user.gender === gender).reduce((total, user) => 
+// total + user.balance, 0);
+//   };
+//   // Change code above this line
