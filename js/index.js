@@ -748,11 +748,10 @@
 
 // // Change code below this line
 // const getTotalBalanceByGender = (users, gender) => {
-//   return users.filter((user) => user.gender === gender).reduce((total, user) => 
+//   return users.filter((user) => user.gender === gender).reduce((total, user) =>
 // total + user.balance, 0);
 //   };
 //   // Change code above this line
-
 
 // // Change code below this line
 // const getUsersWithEyeColor = (users, color) => {
@@ -763,10 +762,8 @@
 //    };
 //    // Change code above this line
 
-
-
-// Доповни функцію getUsersWithAge(users, minAge, maxAge) 
-// таким чином, щоб вона повертала масив користувачів, 
+// Доповни функцію getUsersWithAge(users, minAge, maxAge)
+// таким чином, щоб вона повертала масив користувачів,
 // вік яких (властивість age) потрапляє у проміжок від minAge до maxAge.
 
 // Change code below this line
@@ -851,5 +848,191 @@
 
 //    };
 
-   
-   // Change code above this line
+// Change code above this line
+
+// Доповни функцію getFriends(users) таким чином,
+// щоб вона повертала масив друзів всіх користувачів
+// (властивість friends). У декількох користувачів можуть
+// бути однакові друзі, зроби так, щоб масив, що повертається,
+// не містив повторень.
+
+// const users = [
+//   {
+//     name: 'Moore Hensley',
+//     email: 'moorehensley@indexia.com',
+//     eyeColor: 'blue',
+//     friends: ['Sharron Pace'],
+//     isActive: false,
+//     balance: 2811,
+//     gender: 'male',
+//     age: 37,
+//   },
+//   {
+//     name: 'Sharlene Bush',
+//     email: 'sharlenebush@tubesys.com',
+//     eyeColor: 'blue',
+//     friends: ['Briana Decker', 'Sharron Pace'],
+//     isActive: true,
+//     balance: 3821,
+//     gender: 'female',
+//     age: 34,
+//   },
+//   {
+//     name: 'Ross Vazquez',
+//     email: 'rossvazquez@xinware.com',
+//     eyeColor: 'green',
+//     friends: ['Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner'],
+//     isActive: false,
+//     balance: 3793,
+//     gender: 'male',
+//     age: 24,
+//   },
+//   {
+//     name: 'Elma Head',
+//     email: 'elmahead@omatom.com',
+//     eyeColor: 'green',
+//     friends: ['Goldie Gentry', 'Aisha Tran'],
+//     isActive: true,
+//     balance: 2278,
+//     gender: 'female',
+//     age: 21,
+//   },
+//   {
+//     name: 'Carey Barr',
+//     email: 'careybarr@nurali.com',
+//     eyeColor: 'blue',
+//     friends: ['Jordan Sampson', 'Eddie Strong'],
+//     isActive: true,
+//     balance: 3951,
+//     gender: 'male',
+//     age: 27,
+//   },
+//   {
+//     name: 'Blackburn Dotson',
+//     email: 'blackburndotson@furnigeer.com',
+//     eyeColor: 'brown',
+//     friends: ['Jacklyn Lucas', 'Linda Chapman'],
+//     isActive: false,
+//     balance: 1498,
+//     gender: 'male',
+//     age: 38,
+//   },
+//   {
+//     name: 'Sheree Anthony',
+//     email: 'shereeanthony@kog.com',
+//     eyeColor: 'brown',
+//     friends: ['Goldie Gentry', 'Briana Decker'],
+//     isActive: true,
+//     balance: 2764,
+//     gender: 'female',
+//     age: 39,
+//   },
+// ];
+
+// // Change code below this line
+// const getFriends = users => {
+//   // const allUsers = users.flatMap(user => user.friends);
+//   // return allUsers.filter(
+//   //    (friend, index, array) => array.indexOf(friend) === index
+//   // );
+
+//   return users
+//     .flatMap(user => user.friends)
+//     .filter((friend, index, array) => array.indexOf(friend) === index);
+// };
+// // Change code above this line
+
+
+const users = [
+   {
+     name: "Moore Hensley",
+     email: "moorehensley@indexia.com",
+     eyeColor: "blue",
+     friends: ["Sharron Pace"],
+     isActive: false,
+     balance: 2811,
+     gender: "male",
+     age: 37
+   },
+   {
+     name: "Sharlene Bush",
+     email: "sharlenebush@tubesys.com",
+     eyeColor: "blue",
+     friends: ["Briana Decker", "Sharron Pace"],
+     isActive: true,
+     balance: 3821,
+     gender: "female",
+     age: 34
+   },
+   {
+     name: "Ross Vazquez",
+     email: "rossvazquez@xinware.com",
+     eyeColor: "green",
+     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+     isActive: false,
+     balance: 3793,
+     gender: "male",
+     age: 24
+   },
+   {
+     name: "Elma Head",
+     email: "elmahead@omatom.com",
+     eyeColor: "green",
+     friends: ["Goldie Gentry", "Aisha Tran"],
+     isActive: true,
+     balance: 2278,
+     gender: "female",
+     age: 21
+   },
+   {
+     name: "Carey Barr",
+     email: "careybarr@nurali.com",
+     eyeColor: "blue",
+     friends: ["Jordan Sampson", "Eddie Strong"],
+     isActive: true,
+     balance: 3951,
+     gender: "male",
+     age: 27
+   },
+   {
+     name: "Blackburn Dotson",
+     email: "blackburndotson@furnigeer.com",
+     eyeColor: "brown",
+     friends: ["Jacklyn Lucas", "Linda Chapman"],
+     isActive: false,
+     balance: 1498,
+     gender: "male",
+     age: 38
+   },
+   {
+     name: "Sheree Anthony",
+     email: "shereeanthony@kog.com",
+     eyeColor: "brown",
+     friends: ["Goldie Gentry", "Briana Decker"],
+     isActive: true,
+     balance: 2764,
+     gender: "female",
+     age: 39
+   }
+ ];
+
+//  Доповни функцію getActiveUsers(users) таким чином, 
+//  щоб вона повертала масив активних користувачів, 
+//  значення властивості isActive яких - true.
+
+// // Change code below this line
+// const getActiveUsers = (users) => {
+//    return users.filter(user => user.isActive === true);
+// };
+// // Change code above this line
+
+// Доповни функцію getUserWithEmail(users, email) таким чином, 
+// щоб вона повертала об'єкт користувача, пошта якого (властивість email) 
+// збігається зі значенням параметра email.
+ 
+// const getUserWithEmail = (users, email) => {
+//    return users.find(
+//       user => user.email === email
+//    );
+// };
+ 
